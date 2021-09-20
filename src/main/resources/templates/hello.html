@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello</title>
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
+</head>
+<body>
+    <div id="title">환율 계산</div>
+    <div class="mt-2">
+        송금국가 : 미국(USD)
+    </div>
+    <div>
+        수취국가: <select>
+                    <option value="KRW" selected>한국</option>
+                    <option value="JPY">일본</option>
+                    <option value="PHP">필리핀</option>
+                </select>
+    </div>
+    <div>
+        환율: <span id="money"></span> <span id="rateCurrency"></span>
+    </div>
+    <div>
+        송금액: <input type="text"> USD
+    </div>
+    <div>
+        <input type="button" id="submit" value="submit">
+    </div>
+</body>
+</html>
